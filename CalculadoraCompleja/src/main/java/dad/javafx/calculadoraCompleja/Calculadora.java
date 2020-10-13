@@ -29,16 +29,16 @@ public class Calculadora extends Complejo {
 	VBox comboBox = new VBox();
 	comboBox.setAlignment(Pos.BASELINE_CENTER);
 	comboBox.setSpacing(5);
-	comboBox.getChildren().addAll(operacionCombo);		
+	comboBox.getChildren().addAll();		
 	
 	VBox root = new VBox();
 	root.setSpacing(5);
 	root.setAlignment(Pos.CENTER);
-	root.getChildren().addAll(pesoBox, alturaBox);
+	root.getChildren().addAll();
 	
 	Scene scene = new Scene(root, 320, 200);
 	
-	primaryStage.setTitle("Índice de Masa Corporal");
+	primaryStage.setTitle("");
 	primaryStage.setScene(scene);
 	primaryStage.show();
 	
